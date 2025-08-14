@@ -5,4 +5,6 @@ class AppColors {
 
   static const Color inactiveButton = Color(0xff6A6A6A);
   static const Color inactiveFilter = Color(0xffC1C1C1);
+
+  static const Color border = Color(0xffCECECE);
 }

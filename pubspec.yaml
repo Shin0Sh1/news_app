@@ -7,19 +7,42 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
+  bloc: ^9.0.0
+  connectivity_plus: ^6.1.5
+  dio: ^5.9.0
+  envied: ^1.2.0
   flutter:
     sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_dotenv: ^5.2.1
+  flutter_svg: ^2.2.0
+  get_it: ^8.2.0
+  go_router: ^16.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.20.2
+  json_annotation: ^4.9.0
+  provider: ^6.1.5
+  retrofit: ^4.6.0
+  
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  json_serializable: ^6.9.5
+  build_runner: ^2.5.4
+  retrofit_generator: ^9.0.0
+  envied_generator: ^1.1.1
+  
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/svgs/
+    - assets/images/
 
   fonts:
     - family: Satoshi
